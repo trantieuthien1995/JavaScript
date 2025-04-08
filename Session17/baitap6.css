@@ -1,0 +1,17 @@
+.container{
+    background-color: #808080;
+    margin: auto;
+    
+}
+#Result{
+    width: 176px;
+    height: 35px;
+}
+.btn{
+    width: 43px;
+    height: 40px;
+}
+#equ{
+    width: 43px;
+    height: 172px;
+}
