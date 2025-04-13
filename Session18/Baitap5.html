@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./baitap5.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Quản lý danh sách sinh viên</h1>
+        </div>
+        <div>
+            <input type="text" class="name" id="myInput" placeholder="Tên sinh viên">
+            <input type="text" class="age" id="myInput" placeholder="Tuổi">
+            <input type="text" class="class_name" id="myInput" placeholder="Lớp">
+            <input id="index" type="hidden" />
+            <button class="add" id="save"  onclick="addStudent()">Thêm sinh viên</button>
+            <button style="display: none" id="Update"  onclick="changeStudent()">Update</button>
+            <input type="text" class="search" id="search" placeholder="Tìm kiếm sinh viên..." oninput="search()">
+            
+        </div>
+        <table class="table">
+        <thead>
+            <tr class="top">
+                <th>Tên</th>
+                <th>Tuổi</th>
+                <th>Lớp</th>
+                <th colspan="2">Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+        </table>
+    </div>
+    <script src="./baitap5.js"></script>
+</body>
+</html>

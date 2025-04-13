@@ -1,0 +1,55 @@
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    width: 450px;
+    height: 280px;
+    background-color: #eee;
+}
+.container h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+#myInput{
+    margin: 2px;
+}
+.search{
+    margin-top: 20px;
+    margin-left: 2px;
+    
+}
+.add{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 120px;
+    height: 22px;
+}
+.table{
+    width: 520px;
+    height: 100px;
+    margin-top: 10px;
+}
+.top{
+    text-align: left;
+}
+.btn{
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+}
+#delete{
+    background-color: red;
+}
+#edit{
+    background-color: yellow;
+}
+#Update{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 120px;
+    height: 22px;
+}
