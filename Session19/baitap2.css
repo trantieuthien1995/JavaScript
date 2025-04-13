@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    width: 600px;
+    height: 400px;
+    background-color: brown;
+    flex-wrap: wrap;
+}
+.container h1 {
+    width: 100%;
+}
+#myInput{
+    border: none;
+    width: 120px;
+    height: 22px;
+}
+.date{
+    border: none;
+    width: 100px;
+    height: 24px;
+}
+#choose{
+    border: none;
+    width: 120px;
+    height: 24px;
+}

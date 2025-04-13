@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="./baitap3.css">
+</head>
+<body>
+    <div class="container">
+        <form  action="http://www.Google.com" method="POST"  onsubmit="login()">
+            <h1>Login</h1>
+            <label class="label" >Email:</label>
+            
+            <input class="input" id="Email" type="email" placeholder="Enter your email address"/> 
+          
+            <label class="label" >Password: </label>
+            
+            <input class="input" id="Password" type="password"  placeholder="Enter your password" /> 
+            <span class="toggle-password"><i onclick="myPassword()" class="fa-solid fa-eye"></i></span>
+            
+            <button id="btn" >Login</button>
+            <div class ="test" >
+             <span id="ForgotPass">Forgot password</span> <span>or</span> <span id="SignUp">SignUp</span>
+            </div>
+        </form>
+    </div>
+    <script src="./baitap3.js" ></script>
+</body>
+</html>
